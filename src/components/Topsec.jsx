@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 
 import { useEffect, useState } from "react";
-import ReactTyped from "react-typed";
+// import ReactTyped from "react-typed";
 
 export default function Topsec() {
    const [showHello, setShowHello] = useState(true);
@@ -47,7 +47,7 @@ export default function Topsec() {
         </h1>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-8xl font-serif">
              {" "}
-        <ReactTyped strings={["Welcome to OneCrew"]} typeSpeed={100} loop />
+        {/* <ReactTyped strings={["Welcome to OneCrew"]} typeSpeed={100} loop /> */}
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
              I enjoy working with data and using it to gain valuable insights.
