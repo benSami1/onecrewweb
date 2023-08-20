@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-
+import { TypeAnimation } from 'react-type-animation';
 import { useEffect, useState } from "react";
 // import ReactTyped from "react-typed";
 
@@ -47,7 +47,21 @@ export default function Topsec() {
         </h1>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-8xl font-serif">
              {" "}
-        {/* <ReactTyped strings={["Welcome to OneCrew"]} typeSpeed={100} loop /> */}
+        <div>
+      <TypeAnimation
+        sequence={[
+          "I'm a Developer",
+          1000,
+          "I'm a Writer",
+          1000,
+          "I'm a Designer",
+          1000,
+        ]}
+        speed={70}
+        repeat={Infinity}
+        style={{ fontSize: '2em' }}
+      />
+    </div>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
              I enjoy working with data and using it to gain valuable insights.
