@@ -10,7 +10,7 @@ const posts = [
     datetime: '2020-03-16',
     category: { title: 'Marketing', href: '#' },
     author: {
-      name: 'Michael Foster',
+      name: 'Sami Ahmed',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
