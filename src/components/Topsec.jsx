@@ -50,16 +50,16 @@ export default function Topsec() {
         <div>
       <TypeAnimation
         sequence={[
-          "I'm a Developer",
+          "We Code",
           1000,
-          "I'm a Writer",
+          "We Innovate",
           1000,
-          "I'm a Designer",
+          "We are OneCrew",
           1000,
         ]}
         speed={70}
         repeat={Infinity}
-        style={{ fontSize: '2em' }}
+        style={{ fontSize: '6rem' }}
       />
     </div>
             </h1>
@@ -79,6 +79,22 @@ businesses make informed decisions and improve their processes.
               >
                 Get started ↓
               </Link>
+              <div className="arrow bounce">
+<div className="wrapper">
+	 <Link
+                to="features"
+                smooth={true}
+              >
+		<div className="arrow">
+			<ul>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</Link>
+</div>
+
+</div>
              
             </div>
           </div>
