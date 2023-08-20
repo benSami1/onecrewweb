@@ -5,14 +5,14 @@
 
 
 
-import Features from '../components/Features';
+// import Features from '../components/Features';
 
 
 const Pagesecond = () => {
   return (
     <div id="section2">
       
-      <Features />
+      {/* <Features /> */}
       
       
     </div>
