@@ -1,7 +1,9 @@
 export default function Sectiontwo() {
+  
   return (
     <div>
-      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8" >
+        
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <svg
             viewBox="0 0 1024 1024"
@@ -40,7 +42,7 @@ export default function Sectiontwo() {
           <div className="relative mt-16 h-80 lg:mt-8">
             <img
               className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+              src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/undraw_building_websites_i78t%20(1).svg?alt=media&token=87fa7e22-32fc-4f07-8688-f3a1ce0d3563"
               alt="App screenshot"
               width={1824}
               height={1080}
@@ -48,6 +50,9 @@ export default function Sectiontwo() {
           </div>
         </div>
       </div>
-    </div>
+     
+
+</div>
+    
   )
 }
