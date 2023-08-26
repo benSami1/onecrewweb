@@ -46,9 +46,9 @@ export default function Features() {
             </div>
           </div>
           <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/Charco%20-%20Mobile%20Life.png?alt=media&token=17f250ed-93f8-483a-b27b-2f6dab0e9f7e"
             alt="Product screenshot"
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+            className="w-[30rem] max-w-nonesm:w-[57rem] md:-ml-4 lg:-ml-35"
             width={2432}
             height={1442}
           />
