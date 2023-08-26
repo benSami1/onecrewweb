@@ -22,7 +22,7 @@ export default function Topsec() {
     
     <div  id="home">
      
-      <div className="overflow-hidden pt-8 pb-32 sm:pt-8  webback">
+      <div className="overflow-hidden rounded-b-3xl pt-8 pb-40 sm:pt-8  webback">
         <Header/>
         
         <div
