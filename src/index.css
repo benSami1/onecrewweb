@@ -49,7 +49,20 @@
 
 /* sass */
 
+.webback {
+  background-image: url(./assets/images/webback.jpg);
+}
 
+
+
+@media (max-width: 767px) {
+  .mobile-margin {
+    margin-top: 30px;
+    /* Adjust as needed */
+    margin-bottom: 30px;
+    /* Adjust as needed */
+  }
+}
 
 .wrapper {
   width: 100%;
