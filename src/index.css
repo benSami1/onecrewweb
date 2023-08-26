@@ -51,8 +51,10 @@
 
 .webback {
   background-image: url(./assets/images/webback.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 
 @media (max-width: 767px) {
@@ -92,7 +94,7 @@
 .arrow ul li {
   width: 24px;
   height: 4px;
-  background: rgb(27, 168, 224);
+  background: rgb(255, 255, 255);
 }
 
 .arrow ul li:nth-child(1) {
@@ -128,4 +130,23 @@
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .full-text {
+    display: none;
+  }
+
+  .mobile-text {
+    display: block;
+  }
+}
+
+header {
+  max-width: 90%;
+  /* Adjust the value as needed */
+  margin: 0 auto;
+ 
+
+}
+
 

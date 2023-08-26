@@ -7,7 +7,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header>
+     <header className="bg-white rounded-xl shadow">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -18,7 +18,7 @@ export default function Header() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -30,7 +30,7 @@ export default function Header() {
             <Link
               to="home"
               smooth={true}
-              className="px-3 text-base font-semibold leading-7 text-gray-900 cursor-pointer"
+              className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
               onClick={() => setMobileMenuOpen(false)}
             >
               Introduction
@@ -40,7 +40,7 @@ export default function Header() {
             <Link
               to="features"
               smooth={true}
-className="px-3 text-base font-semibold leading-7 text-gray-900 cursor-pointer"
+className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
               onClick={() => setMobileMenuOpen(false)}
             >
               About me
@@ -50,7 +50,7 @@ className="px-3 text-base font-semibold leading-7 text-gray-900 cursor-pointer"
            <Link
               to="skill"
               smooth={true}
-className=" px-3 text-base font-semibold leading-7 text-gray-900  cursor-pointer"
+className=" px-3 text-base font-semibold leading-7 text-black  cursor-pointer"
               onClick={() => setMobileMenuOpen(false)}
             >
               Skillset
@@ -60,7 +60,7 @@ className=" px-3 text-base font-semibold leading-7 text-gray-900  cursor-pointer
            <Link
               to="Pros"
               smooth={true}
-className=" px-3 text-base font-semibold leading-7 text-gray-900  cursor-pointer"
+className=" px-3 text-base font-semibold leading-7 text-black  cursor-pointer"
               onClick={() => setMobileMenuOpen(false)}
             >
               Why me!
@@ -70,7 +70,7 @@ className=" px-3 text-base font-semibold leading-7 text-gray-900  cursor-pointer
            <Link
               to="blogs"
               smooth={true}
-className="px-3 text-base font-semibold leading-7 text-gray-900  cursor-pointer"
+className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
               onClick={() => setMobileMenuOpen(false)}
             >
               Blogs
@@ -79,7 +79,7 @@ className="px-3 text-base font-semibold leading-7 text-gray-900  cursor-pointer"
          
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://whatsapp.com/03127216079" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="https://whatsapp.com/03127216079" className="text-sm font-semibold leading-6 text-black">
             Contact <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
