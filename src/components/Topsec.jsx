@@ -22,7 +22,7 @@ export default function Topsec() {
     
     <div  id="home">
      
-      <div className="overflow-hidden pt-8 pb-128 sm:pt-8 webback">
+      <div className="overflow-hidden pt-8 pb-32 sm:pt-8  webback">
         <Header/>
         
         <div
@@ -31,7 +31,7 @@ export default function Topsec() {
         >
          
         </div>
-        <div className="mx-auto max-w-2xl  sm:py-48 lg:pt-20 sm:ml-16">
+        <div className="mx-auto max-w-2xl pt-40 pb-40 px-10 sm:py-48 lg:pt-20 sm:ml-16">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           
           </div>
