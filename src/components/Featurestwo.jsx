@@ -19,18 +19,12 @@ const features = [
   },
 ]
 
-export default function Features() {
+export default function Featurestwo() {
   return (
     <div className="overflow-hidden py-24 sm:py-32" id="features">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/mobiledoodle.png?alt=media&token=8a4a4099-8567-470e-be49-faa9bdfc1337"
-            alt="Product screenshot"
-            className="w-[30rem] max-w-nonesm:w-[57rem] md:-ml-4 lg:-ml-35"
-            width={2432}
-            height={1442}
-          />
+           
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
@@ -52,9 +46,16 @@ export default function Features() {
               </dl>
             </div>
           </div>
-          
+         <img
+            src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/webdoodle.png?alt=media&token=f8edc149-892d-4bc0-b713-b6e30675d412"
+            alt="Product screenshot"
+            className="w-[30rem] max-w-nonesm:w-[57rem] md:-ml-4 lg:-ml-35"
+            width={2432}
+            height={1442}
+          />
         </div>
       </div>
     </div>
   )
 }
+

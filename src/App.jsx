@@ -8,7 +8,7 @@ import Pagethird from './Pages/Pagethird'
 import Pagefourth from './Pages/Pagefourth'
 import Pagefive from './Pages/Pagefive'
 import Pagesix from './Pages/Pagesix'
-
+import Pageseven from './Pages/Pageseven'
 
 
 
@@ -24,11 +24,18 @@ function App() {
     <div>
 
 <Pagetop/>
+
 <Pagesecond/>
+<Pageseven/>
+
+
+
 <Pagethird/>
+
 <Pagefourth/>
 <Pagefive/>
 <Pagesix/>
+
 </div>
   
   )
