@@ -2,19 +2,19 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/2
 
 const features = [
   {
-    name: 'Push to deploy.',
+    name: 'Cutting-Edge Custom Solutions:',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Experience excellence with our top-tier company offering custom mobile applications. From healthcare to retail, our expertly crafted solutions meet diverse industry needs, ensuring your app outshines the competition.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    name: 'Efficiency Meets User-Centric Design: ',
+    description: 'Discover efficient, user-friendly mobile apps that excel. Our fusion of technical prowess and market insight results in products that satisfy tech requirements and captivate markets. Stand out and thrive in a competitive digital arena.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Database backups.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Diverse Development, Optimal Results:',
+    description: 'Embrace Cordova, Xamarin, Flutter, and React Native expertise for iOS, Android, and cross-platform development. Collaborate with market analysts to pinpoint ideal channels and platforms. Elevate your brands reach with precision.',
     icon: ServerIcon,
   },
 ]
@@ -33,7 +33,7 @@ export default function Features() {
           />
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
+              <h2 className="text-base font-semibold leading-7 text-gray-600">Mobile App Development</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,

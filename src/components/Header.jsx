@@ -33,7 +33,7 @@ export default function Header() {
               className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Introduction
+              Home
             </Link>
           </li>
           <li  className="no-bullet">
@@ -43,7 +43,7 @@ export default function Header() {
 className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
               onClick={() => setMobileMenuOpen(false)}
             >
-              About me
+              Services
             </Link>
           </li>
           <li  className="no-bullet">
@@ -53,7 +53,7 @@ className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
 className=" px-3 text-base font-semibold leading-7 text-black  cursor-pointer"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Skillset
+              Technologies
             </Link>
           </li>
            <li  className="no-bullet">
@@ -63,7 +63,7 @@ className=" px-3 text-base font-semibold leading-7 text-black  cursor-pointer"
 className=" px-3 text-base font-semibold leading-7 text-black  cursor-pointer"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Why me!
+              Why us!
             </Link>
           </li>
           <li  className="no-bullet">
@@ -80,7 +80,7 @@ className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="https://whatsapp.com/03127216079" className="text-sm font-semibold leading-6 text-black">
-            Contact <span aria-hidden="true">&rarr;</span>
+            Get a Qoute <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>
@@ -89,7 +89,7 @@ className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
   <div className="flex items-center justify-between">
     <Link to="home" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
-      <span className="sr-only">Your Company</span>
+      <span className="sr-only">OneCrew Technologies</span>
       <img
         className="h-8 w-auto"
         src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
@@ -113,28 +113,28 @@ className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
           className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
           onClick={() => setMobileMenuOpen(false)} // Close menu on click
         >
-          Introduction
+          Home
         </Link>
         <Link
           to="features"
           className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
           onClick={() => setMobileMenuOpen(false)} // Close menu on click
         >
-          About me
+          Services
         </Link>
         <Link 
           to="skill"
           className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
           onClick={() => setMobileMenuOpen(false)} // Close menu on click
         >
-          Skillset
+          Technologies
         </Link>
         <Link
           to="Pros"
           className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
           onClick={() => setMobileMenuOpen(false)} // Close menu on click
         >
-          Why me!
+          Why us!
         </Link>
         <Link
           to="blogs"

@@ -68,18 +68,12 @@ export default function Topsec() {
             </h1>
            
 <p className="mt-6 text-lg leading-8 text-gray-200 sm:mt-8 full-text">
-  I enjoy working with data and using it to gain valuable insights.
-  Whether its organizing databases, analyzing information, or creating
-  visualizations, I strive to simplify complex concepts and make them
-  accessible for everyone. My goal is to leverage data effectively to help
-  businesses make informed decisions and improve their processes.
+  At OneCrew Technologies, we're not just a team – we're a tech-driven synergy. With a shared passion for innovation, we craft digital solutions that redefine possibilities. Welcome to a world where code meets creativity, and where your ideas find their digital home.
 </p>
 
 
 <p className="mt-6 text-lg leading-8 text-gray-200 sm:mt-8 mobile-text">
-  I enjoy working with data and using it to gain valuable insights.
-  Whether its organizing databases, analyzing information, or creating
-  visualizations.
+  Where Innovation Meets Execution - OneCrew Technologies: Building Tomorrow, Today!
 </p>
 
             <div className="mt-10 flex items-center justify-center gap-x-6">
