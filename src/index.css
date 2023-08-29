@@ -43,8 +43,18 @@
     sans-serif;
     font-family: 'Inter',
         sans-serif;
+        font-family: 'Pacifico',
+            sans-serif;
+      
+           
    
 
+}
+
+.Pacifico{
+  font-family: 'Pacifico',
+  sans-serif;
+  
 }
 
 /* sass */
