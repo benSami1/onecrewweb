@@ -11,8 +11,8 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-2 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img className="h-9 w-auto" src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/CREWcrop.png?alt=media&token=993168fa-10d8-4560-be0a-4ed047935da9" alt="" />
+            <span className="sr-only">OneCrew</span>
+            <img className="h-9 w-auto" src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/CREWcut.webp?alt=media&token=26e46c42-8b0d-431e-84f3-f549c87f1d2c" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
