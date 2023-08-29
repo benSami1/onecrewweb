@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
      <header className="bg-white rounded-xl shadow">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between p-2 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
@@ -30,7 +30,7 @@ export default function Header() {
             <Link
               to="home"
               smooth={true}
-              className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
+                className="px-8 py-4 rounded-xl text-base font-semibold leading-7 text-black cursor-pointer hover:bg-black hover:text-white transition duration-300"
               onClick={() => setMobileMenuOpen(false)}
             >
               Home
@@ -40,7 +40,7 @@ export default function Header() {
             <Link
               to="features"
               smooth={true}
-className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
+                className="px-8 py-4 rounded-xl text-base font-semibold leading-7 text-black cursor-pointer hover:bg-black hover:text-white transition duration-300"
               onClick={() => setMobileMenuOpen(false)}
             >
               Services
@@ -50,7 +50,7 @@ className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
            <Link
               to="skill"
               smooth={true}
-className=" px-3 text-base font-semibold leading-7 text-black  cursor-pointer"
+                className="px-8 py-4 rounded-xl text-base font-semibold leading-7 text-black cursor-pointer hover:bg-black hover:text-white transition duration-300"
               onClick={() => setMobileMenuOpen(false)}
             >
               Technologies
@@ -60,7 +60,8 @@ className=" px-3 text-base font-semibold leading-7 text-black  cursor-pointer"
            <Link
               to="Pros"
               smooth={true}
-className=" px-3 text-base font-semibold leading-7 text-black  cursor-pointer"
+                              className="px-8 py-4 rounded-xl text-base font-semibold leading-7 text-black cursor-pointer hover:bg-black hover:text-white transition duration-300"
+
               onClick={() => setMobileMenuOpen(false)}
             >
               Why us!
@@ -70,7 +71,8 @@ className=" px-3 text-base font-semibold leading-7 text-black  cursor-pointer"
            <Link
               to="blogs"
               smooth={true}
-className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
+                              className="px-8 py-4 rounded-xl text-base font-semibold leading-7 text-black cursor-pointer hover:bg-black hover:text-white transition duration-300"
+
               onClick={() => setMobileMenuOpen(false)}
             >
               Blogs
@@ -79,7 +81,7 @@ className="px-3 text-base font-semibold leading-7 text-black cursor-pointer"
          
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://whatsapp.com/03127216079" className="text-sm font-semibold leading-6 text-black">
+          <a href="https://whatsapp.com/03127216079" className="text-sm px-8 py-4 rounded-xl font-semibold leading-6 text-black cursor-pointer hover:bg-gray-600 hover:text-white transition duration-300 ">
             Get a Qoute <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
