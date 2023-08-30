@@ -24,55 +24,55 @@ export default function Pros() {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                         <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                          src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/angular.svg?alt=media&token=5a2cf403-7be7-465b-8c70-9583f80d302f"
                           alt=""
-                          className="h-full w-full object-cover object-center"
+                          className="h-auto w-auto object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
+                          src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/7423888_react_react%20native_icon.svg?alt=media&token=006b56f7-620f-47fd-9443-584f52915e09"
                           alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
+                          className="h-auto w-auto object-cover object-center"
                         />
                       </div>
                     </div>
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                          src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/django.svg?alt=media&token=12ec78fb-c30b-4be8-bb96-00123619f394"
                           alt=""
-                          className="h-full w-full object-cover object-center"
+                          className="h-auto w-auto object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                          src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/laravel-2.svg?alt=media&token=8a892708-9c9b-4d3a-b86c-856b78a10fd1"
                           alt=""
-                          className="h-full w-full object-cover object-center"
+                          className="h-auto w-auto object-cover object-center"
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/nodejs-icon.svg?alt=media&token=30398445-ec7a-4283-9f35-162c02d6f610"
+                          alt=""
+                          className="h-auto w-auto object-cover object-center"
+                        />
+                      </div>
+                    </div>
+                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/mongodb-icon-1.svg?alt=media&token=6a5f7d47-040a-487c-87fc-3344970b73f6"
+                          alt=""
+                          className="h-auto w-auto object-cover object-center"
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/mysql-logo.svg?alt=media&token=d1a92195-f4d3-473e-bdfa-196becafd231"
+                          alt=""
+                          className="h-auto w-auto object-cover object-center"
                         />
                       </div>
                     </div>

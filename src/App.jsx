@@ -8,7 +8,7 @@ import Pagethird from './Pages/Pagethird'
 import Pagefourth from './Pages/Pagefourth'
 import Pagefive from './Pages/Pagefive'
 import Pagesix from './Pages/Pagesix'
-import Pageseven from './Pages/Pageseven'
+import Wowsec from './Pages/Wowsec'
 
 
 
@@ -26,13 +26,14 @@ function App() {
 <Pagetop/>
 
 <Pagesecond/>
-<Pageseven/>
+
 
 
 
 <Pagethird/>
 
 <Pagefourth/>
+<Wowsec/>
 <Pagefive/>
 <Pagesix/>
 

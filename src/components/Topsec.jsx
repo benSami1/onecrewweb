@@ -22,7 +22,7 @@ export default function Topsec() {
     
     <div  id="home">
      
-      <div className="overflow-hidden rounded-b-3xl pt-8 pb-40 sm:pt-8  webback">
+      <div className="overflow-hidden  pt-8 pb-6 sm:pt-8  webback">
         <Header/>
         
         <div
@@ -68,7 +68,7 @@ export default function Topsec() {
             </h1>
            
 <p className="mt-6 text-lg leading-8 text-gray-200 sm:mt-8 full-text">
-  At OneCrew Technologies, we're not just a team – we're a tech-driven synergy. With a shared passion for innovation, we craft digital solutions that redefine possibilities. Welcome to a world where code meets creativity, and where your ideas find their digital home.
+  At OneCrew Technologies, we are not just a team we are a tech-driven synergy. With a shared passion for innovation, we craft digital solutions that redefine possibilities. Welcome to a world where code meets creativity, and where your ideas find their digital home.
 </p>
 
 
