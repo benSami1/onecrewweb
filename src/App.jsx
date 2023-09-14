@@ -26,15 +26,16 @@ function App() {
 <Pagetop/>
 
 <Pagesecond/>
+<Pagefourth/>
 
-
-
-
+<Pagefive/>
+<Wowsec/>
 <Pagethird/>
 
-<Pagefourth/>
-<Wowsec/>
-<Pagefive/>
+
+
+
+
 <Pagesix/>
 
 </div>

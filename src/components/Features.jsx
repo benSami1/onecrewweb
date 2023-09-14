@@ -46,7 +46,7 @@ export default function Example() {
             </div>
           </div>
            <div style={{ backgroundColor: 'black', textAlign: 'center', padding: '30px', borderRadius:'2%' }}>
-         <p className=" mb-6 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl Pacifico">Modern Tech Stacks</p>
+         <p className=" mb-6 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl d">Modern Tech Stacks</p>
       <img
         src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/techs.webp?alt=media&token=30a64fbc-f273-441d-8516-a84bd0c0b1a1"
         alt="Product screenshot"
