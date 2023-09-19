@@ -2,18 +2,33 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/2
 
 const features = [
   {
-    name: 'Push to deploy.',
+    name: 'Custom Software Development:',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates.',
+    name: 'Web Development:',
     description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Database backups.',
+    name: 'Mobile App Development:',
+    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    icon: ServerIcon,
+  },
+  {
+    name: 'E-commerce Solutions:',
+    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    icon: CloudArrowUpIcon,
+  },
+   {
+    name: 'Cloud Services:',
+    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    icon: ServerIcon,
+  },
+   {
+    name: 'Digital Transformation: ',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
     icon: ServerIcon,
   },
@@ -26,7 +41,7 @@ export default function Example() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
+              <h2 className="text-base font-semibold leading-7 text-black">Deploy faster</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
@@ -36,7 +51,7 @@ export default function Example() {
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
-                      <feature.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-600" aria-hidden="true" />
+                      <feature.icon className="absolute left-1 top-1 h-5 w-5 text-black" aria-hidden="true" />
                       {feature.name}
                     </dt>{' '}
                     <dd className="inline">{feature.description}</dd>
