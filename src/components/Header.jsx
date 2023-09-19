@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">OneCrew</span>
-            <img className="h-9 w-auto" src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/OneCrewLogo.png?alt=media&token=1c50235f-67f7-413b-a2fa-6434bdb4a5d8" alt="" />
+            <img className="h-9 w-auto" src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/OneCrewLogobl-min.png?alt=media&token=3837d583-8206-48c2-ac89-83edd977900c" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">

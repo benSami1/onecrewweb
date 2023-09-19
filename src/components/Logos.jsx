@@ -7,7 +7,7 @@ const Logos = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <a href="#" className="flex items-center mb-4 sm:mb-0">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/OneCrewLogo.png?alt=media&token=1c50235f-67f7-413b-a2fa-6434bdb4a5d8"
+              src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/OneCrewLogobl-min.png?alt=media&token=3837d583-8206-48c2-ac89-83edd977900c"
               className="h-8 mr-3"
               alt="OneCrewLogo"
             />
