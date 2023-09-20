@@ -4,32 +4,32 @@ const features = [
   {
     name: 'Custom Software Development:',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'We create unique software applications to meet your business needs.',
     icon: CloudArrowUpIcon,
   },
   {
     name: 'Web Development:',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    description: 'Get responsive, user-friendly websites and web apps.',
     icon: LockClosedIcon,
   },
   {
     name: 'Mobile App Development:',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'Reach your audience on iOS and Android with our mobile app expertise.',
     icon: ServerIcon,
   },
   {
     name: 'E-commerce Solutions:',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'Enhance online sales with secure and scalable e-commerce solutions.',
     icon: CloudArrowUpIcon,
   },
    {
     name: 'Cloud Services:',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'Optimize your operations with cloud computing solutions.',
     icon: ServerIcon,
   },
    {
     name: 'Digital Transformation: ',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'Stay competitive with our tech-driven consultancy.',
     icon: ServerIcon,
   },
 ]
@@ -41,11 +41,10 @@ export default function Example() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-black">Deploy faster</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</p>
+              <h2 className="text-base font-semibold leading-7 text-black">We Deliver</h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Beyond Expectations </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+                Ready to take your business to the next level? Contact us today to discuss your project, request a quote, or learn more about how our software services can benefit your organization.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (

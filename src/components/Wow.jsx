@@ -2,13 +2,13 @@ const links = [
   { name: 'Open roles', href: '#' },
   { name: 'Internship program', href: '#' },
   { name: 'Our values', href: '#' },
-  { name: 'Meet our leadership', href: '#' },
+  { name: 'Projects in pipeline', href: '#' },
 ]
 const stats = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
+  { name: 'Support', value: '24hr' },
+  { name: 'Full-time colleagues', value: '30+' },
   { name: 'Hours per week', value: '40' },
-  { name: 'Paid time off', value: 'Unlimited' },
+  { name: 'For interns', value: 'Certifications' },
 ]
 
 export default function Wow() {
@@ -47,8 +47,7 @@ export default function Wow() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+           Are you passionate about technology and looking to work with a dynamic team of professionals? At OneCrew, we value talent, creativity, and innovation. Here's why you should consider a career with us:
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

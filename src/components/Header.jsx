@@ -94,7 +94,7 @@ export default function Header() {
       <span className="sr-only">OneCrew Technologies</span>
       <img
         className="h-8 w-auto"
-        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+        src="https://firebasestorage.googleapis.com/v0/b/onecrewtechs.appspot.com/o/OneCrewLogobl-min.png?alt=media&token=3837d583-8206-48c2-ac89-83edd977900c"
         alt=""
       />
     </Link>

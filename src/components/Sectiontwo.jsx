@@ -71,18 +71,16 @@ export default function Sectiontwo() {
               Can build and destroy Your business
             </h2>
             <p className="mt-6 text-lg leading-8 text-black">
-              Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
+            Unlock the power of your data. Elevate decision-making, enhance efficiency, and gain a competitive edge. Contact us to learn more about our Data Excellence project for small businesses.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
                 href="#"
                 className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                Get started
+                More Info
               </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-black">
-                Learn more <span aria-hidden="true">→</span>
-              </a>
+             
             </div>
           </div>
           <div className="relative mt-16 h-80 lg:mt-8">

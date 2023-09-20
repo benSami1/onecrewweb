@@ -5,11 +5,10 @@ export default function Pros() {
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Innovation delivery
+              Customized Technology Stack
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              This year, our new summer collection will shelter you from the harsh elements of a world that doesnt care
-              if you live or die.
+             We understand that every project is unique. That's why we carefully select the technology stack for each project, ensuring that it aligns perfectly with your goals and requirements.
             </p>
           </div>
           <div>
@@ -80,12 +79,7 @@ export default function Pros() {
                 </div>
               </div>
 
-              <a
-                href="#"
-                className="inline-block rounded-md border border-transparent bg-black px-8 py-3 text-center font-medium text-white hover:bg-grey"
-              >
-                Explore
-              </a>
+             
             </div>
           </div>
         </div>
