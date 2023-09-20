@@ -48,7 +48,7 @@ export default function Header() {
           </li>
           <li  className="no-bullet">
            <Link
-              to="skill"
+              to="Pros"
               smooth={true}
                 className="px-8 py-4 rounded-xl text-base font-semibold leading-7 text-black cursor-pointer hover:bg-black hover:text-white transition duration-300"
               onClick={() => setMobileMenuOpen(false)}
@@ -58,30 +58,31 @@ export default function Header() {
           </li>
            <li  className="no-bullet">
            <Link
-              to="Pros"
+              to="section4"
               smooth={true}
                               className="px-8 py-4 rounded-xl text-base font-semibold leading-7 text-black cursor-pointer hover:bg-black hover:text-white transition duration-300"
 
               onClick={() => setMobileMenuOpen(false)}
             >
-              Why us!
+              Why Us!
             </Link>
           </li>
           <li  className="no-bullet">
            <Link
-              to="blogs"
+              to="section3"
               smooth={true}
                               className="px-8 py-4 rounded-xl text-base font-semibold leading-7 text-black cursor-pointer hover:bg-black hover:text-white transition duration-300"
 
               onClick={() => setMobileMenuOpen(false)}
             >
-              Blogs
+              Careers
             </Link>
           </li>
          
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://whatsapp.com/03127216079" className="text-sm px-8 py-4 rounded-xl font-semibold leading-6 text-black cursor-pointer hover:bg-gray-600 hover:text-white transition duration-300 ">
+          <a href="
+wa.link/7nkqan" className="text-sm px-8 py-4 rounded-xl font-semibold leading-6 text-black cursor-pointer hover:bg-gray-600 hover:text-white transition duration-300 ">
             Get a Qoute <span aria-hidden="true">&rarr;</span>
           </a>
         </div>

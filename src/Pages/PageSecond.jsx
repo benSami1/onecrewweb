@@ -10,7 +10,7 @@ import Features from '../components/Features';
 
 const Pagesecond = () => {
   return (
-    <div id="section2">
+    <div id="features">
       
       <Features />
       
