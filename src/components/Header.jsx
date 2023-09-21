@@ -81,7 +81,7 @@ export default function Header() {
          
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://api.whatsapp.com/send?phone=923127216079" className="text-sm px-8 py-4 rounded-xl font-semibold leading-6 text-black cursor-pointer hover:bg-gray-600 hover:text-white transition duration-300 ">
+          <a href="https://api.whatsapp.com/send?phone=923120043671" className="text-sm px-8 py-4 rounded-xl font-semibold leading-6 text-black cursor-pointer hover:bg-gray-600 hover:text-white transition duration-300 ">
             Get a Qoute <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
