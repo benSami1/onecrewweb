@@ -31,18 +31,13 @@ export default function Sectiontwo() {
       </div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
         <p className="text-sm leading-6 text-gray-900">
-          <strong className="font-semibold">Internship Drive 2023</strong>
+          <strong className="font-semibold">Breast Cancer Awareness Month</strong>
           <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
             <circle cx={1} cy={1} r={1} />
           </svg>
-          Join us and polish your skills to excel in market - Certificate included
+          Build Awareness.  Connect.  Community.  Encourage hope.
         </p>
-        <a
-          href="https://forms.gle/n23ZKu84kSw7gLo28"
-          className="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
-        >
-          Fill a Form <span aria-hidden="true">&rarr;</span>
-        </a>
+        
       </div>
       <div className="flex flex-1 justify-end">
        
