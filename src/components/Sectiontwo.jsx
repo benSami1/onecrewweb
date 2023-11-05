@@ -4,7 +4,7 @@ export default function Sectiontwo() {
   return (
     
     <div className="bg-black rounded-3xl">
-       <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
+       {/* <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
       <div
         className="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
         aria-hidden="true"
@@ -42,7 +42,7 @@ export default function Sectiontwo() {
       <div className="flex flex-1 justify-end">
        
       </div>
-    </div>
+    </div> */}
       <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8 bg-black" >
         
         <div className="relative isolate overflow-hidden bg-stone-300 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">

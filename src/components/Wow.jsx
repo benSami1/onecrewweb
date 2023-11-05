@@ -6,7 +6,7 @@ const links = [
 ]
 const stats = [
   { name: 'Support', value: '24hr' },
-  { name: 'Full-time colleagues', value: '30+' },
+  { name: 'Full-time colleagues', value: '15+' },
   { name: 'Hours per week', value: '40' },
   { name: 'For interns', value: 'Certifications' },
 ]
@@ -47,7 +47,7 @@ export default function Wow() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-           Are you passionate about technology and looking to work with a dynamic team of professionals? At OneCrew, we value talent, creativity, and innovation. Here's why you should consider a career with us:
+           Are you passionate about technology and looking to work with a dynamic team of professionals? At OneCrew, we value talent, creativity, and innovation. Here is why you should consider a career with us:
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
